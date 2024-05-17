@@ -2,6 +2,26 @@
   max-width: 1200px; /* 최대 너비 설정 */
   min-width: 800px; /* 최소 너비 설정 */
   margin: 0 auto;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+h4 {
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: large;
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 button {

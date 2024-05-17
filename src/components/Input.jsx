@@ -9,9 +9,10 @@ function Input({ todos, setTodos }) {
   const handleSubmitClick = (event) => {
     event.preventDefault();
 
-    if (!title || !contents) {
-      // 제목 또는 내용이 빈 문자열일 경우 함수 종료
-      return;
+
+// 제목 또는 내용이 빈 문자열일 경우 함수 종료
+    if (!title.trim() || !contents.trim) {
+      return alert("제목과 내용을 입력해 주세요.");
     }
 
 

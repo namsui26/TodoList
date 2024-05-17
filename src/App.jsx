@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Input from './components/Input';
 import TodoList from './components/TodoList';
+import './reset.css';
 import './App.css';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <div className='all'>
-      <Header>Todo List</Header>
+      <Header className='header'>Todo List</Header>
       <main>
         <Input todos={todos} setTodos={setTodos} />
         <TodoList isActive={true} todos={todos} setTodos={setTodos} />
